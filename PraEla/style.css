@@ -5,7 +5,7 @@
 }
 
 body {
-    transition: background-color 1s ease;
+    transition: background-color .5s ease;
     margin: 0;
     height: 100vh;
     display: flex;
@@ -15,7 +15,7 @@ body {
 }
 
 .animated-text {
-    transition: color 1s ease;
+    transition: color .5s ease;
     font-size: 4rem;
     background-color: #FFCCCC;
 }
