@@ -1,5 +1,5 @@
 const backgrounds = ['#FFCCCC', '#FF9999', '#FF6666', '#FF3333', '#FF0000'];
-const texts = ['Você é', 'a mulher', 'mais fofa', 'do mundo!', '❤'];
+const texts = ['Você é', 'a mulher', 'mais LINDA', 'do mundo!', '❤'];
 let currentIndex = 0;
 
 function updateContent() {
