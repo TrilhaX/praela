@@ -8,7 +8,8 @@ const textoAnimadoFrases = [
     "Porém, foi quando comecei a falar contigo.",
     "Que eu percebi que você era mais que isso.",
     "Além de inteligente, você consegue ser engraçada, bonita, divertida e outras milhões de qualidades.",
-    "Então, eu gostaria de saber se você me daria essa chance."
+    "Então, eu gostaria de saber se você me daria essa chance.",
+    "Me manda sua resposta no insta."
 ];
 const backgroundColors = [
   "#FFC0CB", // Pink
