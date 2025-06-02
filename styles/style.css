@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+body {
+    transition: background-color .5s ease;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.animated-text {
+    transition: color .5s ease;
+    font-size: 4rem;
+    background-color: #ffffff;
+}
