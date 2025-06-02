@@ -10,7 +10,17 @@ const textoAnimadoFrases = [
     "Além de inteligente, você consegue ser engraçada, bonita, divertida e outras milhões de qualidades.",
     "Então, eu gostaria de saber se você me daria essa chance."
 ];
-const backgroundColors = []
+const backgroundColors = [
+  "#FFC0CB", // Pink
+  "#FFB6C1", // Light Pink
+  "#FF69B4", // Hot Pink
+  "#FF1493", // Deep Pink
+  "#FF7F50", // Coral
+  "#FF6347", // Tomato
+  "#FF4500", // Orange Red
+  "#DC143C", // Crimson
+  "#B22222"  // Firebrick
+];
 let fraseAtual = 0
 let letraAtual = 0
 let acaoAtual = "digitando"
@@ -20,8 +30,8 @@ function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms))
 }
 
-async function changeBackgroundColor() {
-    console.log("W.I.P")
+async function changeBackgroundColor(indice) {
+    return backgroundColors[indice]
 }
 
 async function textoAnimado() {
@@ -29,6 +39,8 @@ async function textoAnimado() {
     const comprimento = frase.length;
 
     if (acaoAtual === "digitando") {
+        document.body.style.backgroundColor = backgroundColors[fraseAtual]
+        h1.style.backgroundColor = backgroundColors[fraseAtual]
         h1.textContent = frase.substring(0, letraAtual + 1);
         letraAtual++;
 
